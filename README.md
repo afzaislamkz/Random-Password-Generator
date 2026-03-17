@@ -1,6 +1,9 @@
 # Random-Passowrd-Generator
 # 🔐 Random Password Generator
 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 A simple and interactive **Random Password Generator** built using **HTML, CSS, and JavaScript**.
 This project allows users to generate strong passwords instantly and copy them with one click.
 
@@ -74,9 +77,10 @@ git clone https://github.com/afzaislamkz/Random-Password-Generator.git
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Developed by 
 
 **Afza Islam**
+[![GitHub](https://img.shields.io/badge/GitHub-afzaislamkz-purple?style=flat&logo=github)](https://github.com/afzaislamkz)
 
 ---
 
