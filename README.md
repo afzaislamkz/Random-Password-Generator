@@ -1,9 +1,9 @@
 # Random-Passowrd-Generator
 # 🔐 Random Password Generator
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+
+
+
 A simple and interactive **Random Password Generator** built using **HTML, CSS, and JavaScript**.
 This project allows users to generate strong passwords instantly and copy them with one click.
 
@@ -27,9 +27,9 @@ This project features a **Dark Mode UI with a Purple Theme**, giving it a modern
 
 ## 🛠️ Technologies Used
 
-* HTML5
-* CSS3
-* JavaScript (Vanilla JS)
+* HTML5 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+* CSS3 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+* JavaScript ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
 ---
 
@@ -40,6 +40,7 @@ This project features a **Dark Mode UI with a Purple Theme**, giving it a modern
 │── index.html
 │── style.css
 │── script.js
+│── README.md
 ```
 
 ---
@@ -79,7 +80,7 @@ git clone https://github.com/afzaislamkz/Random-Password-Generator.git
 
 ## 👨‍💻 Developed by 
 
-**Afza Islam**
+**Afza Islam**    
 [![GitHub](https://img.shields.io/badge/GitHub-afzaislamkz-purple?style=flat&logo=github)](https://github.com/afzaislamkz)
 
 ---
