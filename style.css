@@ -1,0 +1,136 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #0d0d1a; /* very dark navy */
+}
+
+.Passwod-container {
+    background-color: #12122a; /* dark purple-navy card */
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    border: 1px solid #3a2d7a; /* dark purple border */
+    position: relative;
+    overflow: hidden;
+}
+
+/* shimmer top border */
+.Passwod-container::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #6c47ff, #3b82f6, #6c47ff);
+    background-size: 200%;
+    animation: shimmer 2.5s linear infinite;
+}
+
+@keyframes shimmer {
+    0%   { background-position: 0%; }
+    100% { background-position: 200%; }
+}
+
+.Passwod-container h2 {
+    color: #e0d9ff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.input-container {
+    border: 2px solid #2d2060; /* dark purple border */
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #070714; /* almost black */
+}
+
+.input-container:hover {
+    border-color: #6c47ff; /* main purple on hover */
+}
+
+.input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: #a78bfa; /* light purple text */
+}
+
+.input::placeholder {
+    letter-spacing: 0px;
+    color: #3a2d7a; /* muted purple placeholder */
+}
+
+.fa-copy {
+    cursor: pointer;
+    opacity: 0.4;
+    color: #a78bfa; /* light purple */
+    transition: opacity 0.2s, transform 0.2s, color 0.2s;
+}
+
+.fa-copy:hover {
+    opacity: 1;
+    transform: scale(1.2);
+    color: #e0d9ff; /* light lavender on hover */
+}
+
+.btn {
+    background-color: #6c47ff; /* main purple */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.btn:hover {
+    background-color: #7c5cff; /* hover purple */
+}
+
+.btn:active {
+    transform: scale(0.97);
+    background-color: #5a35e8; /* active purple */
+}
+
+.alert-container {
+    position: fixed;
+    width: 300px;
+    height: 50px;
+  background-color: #4c1d95 ; /* deep blue bg */
+    border: 1px solid #a78bfa; /* blue border */
+    color: #e0d9ff; /* light blue text */
+    right: 20px;
+    bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    letter-spacing: 0.15em;
+    transition: 0.3s;
+}
+
+.active.alert-container {
+    right: -320px;
+    
+}
